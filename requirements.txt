@@ -1,0 +1,3 @@
+# requirements.txt
+pypdf>=3.0.0
+playwright>=1.0.0
