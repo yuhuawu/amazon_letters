@@ -46,7 +46,6 @@ def main():
         print(f"Navigating to {START_URL}")
         page.goto(START_URL, timeout=60000)
         page.wait_for_load_state("networkidle")
-        page.screenshot()
         
         # Use Playwright to query all <a> tags
         links = page.query_selector_all("a")
